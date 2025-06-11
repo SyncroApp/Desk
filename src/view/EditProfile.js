@@ -27,7 +27,7 @@ const EditProfile = ({ onProfileEdited }) => {
     e.preventDefault();
     try {
       await axios.put(
-        'https://apisync.herobuxx.me/api/protected/profile',
+        'https://syncroapp-3b34793ae8e7.herokuapp.com/api/protected/profile',
         formData,
         {
           headers: {
