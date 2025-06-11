@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Token from '../config/Token';
 
-const baseAPIURL = 'https://syncroapp-3b34793ae8e7.herokuapp.com';
+const baseAPIURL = 'https://syncro-app-c8151e05a204.herokuapp.com';
 
 const myProject = `${baseAPIURL}/api/protected/accounts/project`;
 const myTask = `${baseAPIURL}/api/protected/accounts/task`;
