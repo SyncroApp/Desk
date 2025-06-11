@@ -26,7 +26,7 @@ const CreateProfile = ({ onProfileCreated }) => {
     e.preventDefault();
     try {
       await axios.post(
-        'https://syncroapp-3b34793ae8e7.herokuapp.com/api/protected/profile',
+        'https://syncro-app-c8151e05a204.herokuapp.com/api/protected/profile',
         formData,
         {
           headers: {

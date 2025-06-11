@@ -21,7 +21,7 @@ const CreateProject = ({ onProjectCreated }) => {
     e.preventDefault();
     try {
       await axios.post(
-        'https://syncroapp-3b34793ae8e7.herokuapp.com/api/protected/project',
+        'https://syncro-app-c8151e05a204.herokuapp.com/api/protected/project',
         formData,
         {
           headers: {

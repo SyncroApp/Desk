@@ -43,7 +43,7 @@ const InviteMember = ({ projectId, onMemberAdded }) => {
 
     try {
       await axios.post(
-        `https://syncroapp-3b34793ae8e7.herokuapp.com/api/protected/project/invite/${projectId}`,
+        `https://syncro-app-c8151e05a204.herokuapp.com/api/protected/project/invite/${projectId}`,
         members,
         {
           headers: {
